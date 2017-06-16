@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="   About"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:layout_below="@id/textView2"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_below="@id/textView2"
+            android:text="Speaking to eight European newspapers, including The Economist, in his first interview since securing the Brexit job last July, Mr Barnier refuses to be drawn out on the chaos unfolding across the English Channel after last week’s general election, in which the ruling Conservative Party failed to win an overall majority."
+            android:textColor="@color/main_dark"/>
+    </RelativeLayout>

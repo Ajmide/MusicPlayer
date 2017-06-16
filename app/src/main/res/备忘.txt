@@ -1,0 +1,1 @@
+the icons in notification bar must be flat

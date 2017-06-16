@@ -7,6 +7,8 @@ import android.support.test.runner.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import cn.edu.bjtu.android.mymusicplayer.data.PlayAction;
+
 import static org.junit.Assert.*;
 
 /**
@@ -23,4 +25,5 @@ public class ExampleInstrumentedTest {
 
         assertEquals("cn.edu.bjtu.android.mymusicplayer", appContext.getPackageName());
     }
+
 }
